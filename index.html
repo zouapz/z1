@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World Site</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoubz - Your Affiliate Store</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 <body>
-  <div class="container">
-    <h1>Hello World 🌍</h1>
-    <p>مرحبا بك فموقعي البسيط!</p>
-    <button onclick="sayHello()">Click Me</button>
-  </div>
+  <header>
+    <img src="images/logo.png" alt="Zoubz Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <script src="script.js"></script>
+  <main>
+    <section id="home">
+      <h1>Welcome to Zoubz</h1>
+      <p>Your one-stop shop for amazing products!</p>
+    </section>
+
+    <section id="products">
+      <h2>Featured Products</h2>
+      <div id="product-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Zoubz. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
 </body>
 </html>
